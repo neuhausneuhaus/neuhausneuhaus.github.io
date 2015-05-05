@@ -1,0 +1,51 @@
+body {
+	color: white;
+	font-family: helvetica;
+}
+
+header {
+	text-align: center;
+	background: url('http://www.psdgraphics.com/file/colorful-triangles-background.jpg');
+	background-size: cover;
+	background-position: center;
+}
+a {color: white;}
+p {font-size: 20px;}
+h1 {font-size: 70px;}
+img {
+      margin: 40px 0px 0px 0px;
+      border: 7px solid white;
+      border-radius: 20px;
+    }
+ul {
+      padding: 10px;
+      background: rgba(0,0,0,0.5);
+    }
+li {
+      display: inline;
+      padding: 0px 10px 0px 10px;
+    }
+article {
+      max-width: 700px;
+      padding: 20px;
+      margin: 0 auto;
+      color: white;
+      background: rgba(0,0,0,0.5)
+    }
+body {
+      text-align: center;
+      background: #165370;
+      background-size: cover;
+      color: white;
+      font-family: helvetica;
+    }
+    @media (max-width: 500px) {
+      h1 {
+        font-size: 36px;
+        padding: 5px;
+      }
+      li {
+        padding: 5px;
+        display: block;
+      }
+    }
